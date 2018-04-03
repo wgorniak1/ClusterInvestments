@@ -1,0 +1,92 @@
+/*
+Theme Name: Doeko
+Template: framework
+*/
+body #logo_text {
+    display: none;
+}
+body a.button.large.primary {
+    width: 100%;
+    margin-bottom: 10px;
+}
+body a.button.large.primary span {
+    width: 100%;
+    padding: .6em 0em;
+}
+#main > div > div.one_fourth.last > a.button.large.primary > span {
+    line-height:36px;
+}
+body #footer_right_area {
+    top: 10px;
+    right: 0px;
+}
+body #site-name {
+    line-height: 85px;
+} 
+body #page {
+    background-color:#fff;
+}
+body.home #page .inner {
+    padding-top:0px;
+}
+body textarea,
+body input[type=text],
+body input[type=password],
+body input[type=email],
+body select {
+    width: 100%;
+    max-width: 310px;
+}
+body select {
+    padding: 4px;
+    color: rgb(157,157,157);
+    max-width: 322px !important;
+}
+.page-id-6311 #page ul li {
+    list-style-type: none !important;
+    border: 2px solid #0f769a;
+    margin: 10px;
+    text-align: Center;
+    padding: 5px;
+    background-color: #0f769a;
+    color: #FFF;
+}
+.page-id-6311 #page ul li a {
+    color: #FFF !important;
+}
+.page-id-6311 #page h1 {
+    text-align: center;
+}
+
+
+
+span.not-valid-tip {
+    color: #f00;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+}
+
+
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #333333;
+
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+
+    position: absolute;
+    
+    margin-left: 5px;
+    
+    display: inline-block;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
